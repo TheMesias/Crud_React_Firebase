@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-form{
+    background-color: #ef8354;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .25);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  }
+  .circles {
+    position: absolute;
+    height: 270px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+  .circle-1 {
+    height: 180px;
+    width: 180px;
+    top: -50px;
+    left: -60px;
+  }
+  .circle-2 {
+    height: 200px;
+    width: 200px;
+    bottom: -90px;
+    right: -90px;
+    opacity: 0.8;
+  }
+
+form button{
+    border: 1px solid #fff;
+      padding: 10px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px !important;
+      background-color: #0fe6ea00;
+      text-transform: uppercase;
+      color: rgb(255, 234, 234);
+      
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+   
+  padding: 2rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  color:#fff;
+  background: #fdfdfd2f;
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  border: 1.5px solid rgba(209, 213, 219, 0.3);
+  z-index: 2;
+}
+
+.form label{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.form input{
+    background: none;
+    border: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+.form input:focus{
+    border: none;
+}
+
+.form p{
+    text-align: end;
+    padding: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.form p a{
+    color: #fff;
+}
+
+.llama{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    right: 0;
+
+}
+
+.logo{
+    width: 300px;
+   z-index: 1;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: aliceblue;
+    text-transform: uppercase;
+}

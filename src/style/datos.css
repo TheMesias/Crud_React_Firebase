@@ -1,0 +1,59 @@
+.containerDatos{
+    padding: 1rem;
+   
+}
+
+.containerDatos h1{
+    color: black;
+    text-align: center;
+}
+
+.containerDatos input{
+    outline: none;
+    display: block;
+  background: none;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    color: gray;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: semibold;
+    line-height: inherit;
+    border-bottom: 1px solid white;
+}
+
+.containerDatos label{
+    margin-top: 10px;
+}
+
+.containerDatos button{
+    outline: none;
+    background: rgb(15, 106, 235);
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 20px;
+    color: #000;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: semibold;
+    line-height: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.task-form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+    background: rgba(8, 100, 230, 0.25);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    border-radius: 5px;
+}

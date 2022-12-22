@@ -38,7 +38,7 @@ export function Login(){
                 <label htmlFor="password">Password</label>
                 <input type="password" name="password" id="password" onChange={handleChange}></input>
 
-                <button>Ingresar</button>
+                <button>Log in</button>
                 <p><Link to='/Register'>Registrarse</Link></p>
             </form>
             <img className='llama' src={llama}/>
